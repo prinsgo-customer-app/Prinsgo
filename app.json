@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "PrinsGo",
+    "slug": "prinsgo-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0B0B0F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "PrinsGo needs your location to find your pickup point and show nearby drivers."
+      }
+    },
+    "android": {
+      "package": "com.prinsgo.customer",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
