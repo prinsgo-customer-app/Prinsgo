@@ -20,7 +20,7 @@ export const SOCKET_URL = 'https://prinsgo-backend.onrender.com';
 - **Testing on your phone via Expo Go**: use your computer's LAN IP (e.g. `http://192.168.1.5:5000`), not `localhost` — your phone can't reach your computer's localhost.
 - **Once backend is deployed on Render**: use the Render URL, e.g. `https://prinsgo-backend.onrender.com`.
 
-Also update `SUPPORT_PHONE` and `SUPPORT_EMAIL` in the same file with your real support contact.
+Also update `918629995010` and `prinsgoofficial@gmail.com` in the same file with your real support contact.
 
 ### 2. Run it
 
