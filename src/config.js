@@ -1,8 +1,9 @@
 // ============================================================
-// Backend is deployed on Railway — pointing to the live URL.
+// Backend is deployed on Render — final correct config
 // ============================================================
-export const API_BASE_URL = 'https://prinsgo-backend-production.up.railway.app/api';
-export const SOCKET_URL = 'https://prinsgo-backend-production.up.railway.app';
+
+export const API_BASE_URL = 'https://prinsgo-backend.onrender.com/api';
+export const SOCKET_URL = 'https://prinsgo-backend.onrender.com';
 
 // Support Details
 export const SUPPORT_PHONE = '918629995010';
