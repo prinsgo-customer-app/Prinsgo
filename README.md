@@ -13,8 +13,13 @@ npm install
 Open `src/config.js` and set:
 
 ```js
-export const API_BASE_URL = 'http://<your-ip-or-domain>:5000/api';
-export const SOCKET_URL = 'http://<your-ip-or-domain>:5000';
+export const API_BASE_URL = 'https://prinsgo-backend.onrender.com/api';
+export const SOCKET_URL = 'https://prinsgo-backend.onrender.com';
+
+// Update with your real support contact number (with country code, no + or spaces for tel/whatsapp links)
+export const SUPPORT_PHONE = '9186299995010';
+export const SUPPORT_EMAIL = 'prinsgoofficial@gmail.com';
+
 ```
 
 - **Testing on your phone via Expo Go**: use your computer's LAN IP (e.g. `http://192.168.1.5:5000`), not `localhost` — your phone can't reach your computer's localhost.
